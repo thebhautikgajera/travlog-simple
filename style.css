@@ -67,7 +67,7 @@ body {
 }
 
 #nav3>h4 {
-    margin: 0 2vw;
+    margin: 0 0.6vw;
     font-family: "Poppins", sans-serif;
     font-weight: 500;
 }
@@ -197,8 +197,6 @@ body {
 }
 
 #rpage2 {
-    position: absolute;
-    left: 50%;
     margin-top: 5vw;
     display: flex;
     gap: 3vw;
@@ -438,4 +436,153 @@ body {
     display: flex;
     align-items: center;
     gap: 3vw;
+}
+
+#page-6 {
+    margin-top: 16vw;
+    height: 100vh;
+    padding: 0 6vw;
+    width: 100%;
+}
+
+#page-6>h3 {
+    font-family: "Poppins", sans-serif;
+    letter-spacing: 0.3vw;
+    font-size: 2vw;
+    color: #F85E9F;
+    padding: 0 6vw;
+    text-align: center;
+    font-weight: 500;
+}
+
+#page-6>h4 {
+    font-family: "Poppins", sans-serif;
+    margin-top: 1.5vw;
+    font-size: 3vw;
+    font-weight: 600;
+    text-align: center;
+}
+
+#testimonialsPage6 {
+    display: flex;
+    justify-content: space-between;
+}
+
+#lpage6arrow {
+    display: flex;
+    gap: 2.5vw;
+}
+
+#lcirclepage6 {
+    height: 5vw;
+    width: 5vw;
+    border: 1px solid #f0eff6;
+    border-radius: 50%;
+    margin-top: 11vw;
+}
+
+#lcirclepage6>img {
+    margin-top: 1.6vw;
+    margin-left: 1.6vw;
+}
+
+#rcirclepage6 {
+    height: 5vw;
+    width: 5vw;
+    background-color: #5D50C6;
+    border-radius: 50%;
+    margin-top: 11vw;
+}
+
+#rcirclepage6>img {
+    margin-top: 1.6vw;
+    margin-left: 1.6vw;
+}
+
+#cpage6{
+    text-align: center;
+    margin-top: 4vw;
+}
+
+#cpage6>h2{
+    margin-top: 2vw;
+}
+
+#starPage6{
+    margin-top: 2vw;
+}
+
+#cpage6>h3{
+    margin-top: 3vw;
+}
+
+#circlePage6{
+    margin-top: 3.5vw;
+}
+
+.circlePage6Img{
+    margin: 0.5vw;
+}
+
+#page-7{
+    height: 100vh;
+    width: 100%;
+    background-color: #FFFBF0;
+    margin-top: 5vw;
+}
+
+#h3page7>h3{
+    font-family: "Poppins", sans-serif;
+    letter-spacing: 0.3vw;
+    font-size: 2vw;
+    color: #F85E9F;
+    padding: 0 6vw;
+    text-align: center;
+    font-weight: 500;
+}
+
+#h3page7>h4 {
+    font-family: "Poppins", sans-serif;
+    margin-top: 3vw;
+    font-size: 3vw;
+    font-weight: 600;
+    text-align: center;
+}
+
+#formPage7{
+    display: flex;
+    justify-content: center;
+    gap: 3vw;
+}
+
+#newsletterFormText{
+    margin-top: 4vw;
+}
+
+#newsletterFormbtn{
+    margin-top: 4vw;
+}
+
+#newsletterFormText>input[type=text]{
+    height: 5vw;
+    width: 45vw;
+    font-family: "Poppins", sans-serif;
+    margin-top: 1.5vw;
+    padding: 0 2vw;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    font-size: 1.3vw;
+}
+
+#newsletterFormbtn>button{
+    height: 5vw;
+    font-size: 1.3vw;
+    width: 10vw;
+    border: 1px solid #5D50C6;
+    background-color: #5D50C6;
+    border-radius: 10px;
+    color: #ffffff;
+    font-family: "Poppins", sans-serif;
+    margin-top: 1.5vw;
+    padding: 0 2vw;
 }
